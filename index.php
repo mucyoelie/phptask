@@ -10,7 +10,9 @@
         <?php 
         $sentence = "The main body of a book";
         $uppercaseSentence = strtoupper($sentence);
+        $lowercaseSentence = strtolower($sentence);
         echo $uppercaseSentence . "<br><br>";
+        echo $lowercaseSentence  . "<br><br>"; 
         $newSentence = str_replace("book", "collage", $sentence);
         echo  $newSentence . "<br><br>";
         $length = strlen($sentence);
